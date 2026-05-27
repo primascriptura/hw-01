@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
     color: #434455;
@@ -104,5 +109,5 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #FFFFFF;
-    padding: 0 calc((100% - 1200px) / 2);
+    padding: 24px calc((100% - 1200px) / 2);
 }
