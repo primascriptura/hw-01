@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+h1 {
+    font-size: 56px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    line-height: 3.75;
+    text-align: center;
+    color: white;
+}
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+p {
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+button {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    color: white;
+    cursor: pointer;
+}
+.hero {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 80px 16px;
+    background-color: #2E2F42;
+}
+.team {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 80px 16px;
+    background-color: #F4F4FD;
+}   
+
+ul {
+    list-style-type: none;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: #FFFFFF;
+}
+
+.nav-list a {
+    color: #2E2F42;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.logo {
+    font-weight: 700;
+    font-style: uppercase;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contact-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: #434455;
+}
+
+.contact-list a {
+    color: #2E2F42;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 0 calc((100% - 1200px) / 2);
+}
