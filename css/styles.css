@@ -46,13 +46,19 @@ button {
     cursor: pointer;
 }
 .hero {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 24px;
-    padding: 80px 16px;
     background-color: #2E2F42;
+    height: 100vh;
 }
+
+.hero h1 {
+    line-height: 60px;
+}
+
 .team {
     flex-direction: column;
     align-items: center;
@@ -110,4 +116,107 @@ header {
     justify-content: space-between;
     background-color: #FFFFFF;
     padding: 24px calc((100% - 1200px) / 2);
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 120px calc((100% - 1200px) / 2);
+}
+
+.features ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+} 
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 72px;
+    padding: 120px calc((100% - 1200px) / 2);
+}
+
+.team ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.team ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 
+        0 2px 1px rgba(46, 47, 66, 0.08),
+        0 1px 1px rgba(46, 47, 66, 0.16);
+        0 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.tom-ford {
+    display: block;
+    width: 264px;
+    height: 260px;
+    object-fit: cover;
+    object-position: 10% 1%;
+}
+
+.team ul li img {
+    display: block;
+    width: 264px;
+    height: 260px;
+    object-fit: cover;
+    object-position: 50% 1%;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin: 32px 16px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 72px;
+    padding: 120px calc((100% - 1200px) / 2);
+}
+
+.portfolio-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+    padding: calc((100% - 1200px) / 2);
+}
+
+.raw-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.raw-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    
 }
